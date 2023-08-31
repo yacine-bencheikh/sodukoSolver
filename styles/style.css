@@ -1,0 +1,65 @@
+body { 
+    font-family: Calibri, sans-serif;
+     background-color:#1D5D9B
+}
+.box {
+    width: 50px;
+    height: 50px;
+    border: 0.5px solid black;
+}
+.buttons{
+    display: flex;
+    /* justify-content: center; */
+    margin: 5px;
+    padding: 20px;
+    justify-content: space-around;
+}
+#container {
+     text-align: center;
+ }           
+table { 
+    border-collapse: collapse;
+     font-size: 2em; 
+     margin: 0 auto; 
+     background-color: rgb(134, 134, 77);
+     
+}
+colgroup, tbody {
+    border: solid 5px;
+    color: #F4D160;
+}
+td { border: solid 2px;
+     height: 1.4em; 
+     width: 1.4em; 
+     text-align: center; 
+     padding: 0; 
+}
+#sudoku-board{
+    /* background-color: red; */
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; ; */
+}
+tbody tr td {
+    color:#FBEEAC;
+}
+caption{
+    color :rgb(134, 134, 77);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+#image{
+    position: absolute;
+    top:30%;
+    left:14%;
+    width:10%
+}
+button{
+    background-color: #75C2F6;
+    color: #F4D160;
+    margin-top: 10px;
+    font-size: 1.5em; 
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+}
+button:hover{
+    box-shadow: #FBEEAC 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px
+}
